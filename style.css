@@ -1,0 +1,56 @@
+*{
+   padding: 0;
+   margin: 0;
+   color: white;
+}
+.wrapper{
+    display: flex;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('astronomy-beautiful-clouds-355465.jpg');
+}
+.container{
+    min-width: 320px;
+    max-width: 1200px;
+    width: 100%;
+}
+.clock-container{
+    align-self: center;
+    margin: auto;
+}
+.coutdown{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+.js-hours,
+.js-minutes,
+.js-seconds{
+    margin: auto;
+    font-size: 5rem;
+    width: 20%;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn-body{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.btn{
+    font-size: 1.5rem;
+    padding: 1.1rem 2rem;
+    border: 2px solid transparent;
+    border-radius: 25%;
+    background-color: transparent;
+    outline: none;
+    transition: border ease-in 1s;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn:hover{
+    border: 2px solid white;
+}
